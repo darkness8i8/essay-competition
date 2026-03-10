@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essay Competition — Sentient Futures</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="sf-logo.png" alt="Sentient Futures" class="nav-logo-img">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#hyperstition">THEORY</a></li>
+        <li><a href="#rules">RULES</a></li>
+        <li><a href="#submit">SUBMIT</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <canvas id="starfield"></canvas>
+    <div class="hero-content">
+      <img src="sf-logo.png" alt="Sentient Futures" class="hero-logo">
+      <h1 class="hero-title">
+        <span class="hero-title-line">Writing</span>
+        <span class="hero-title-line hero-title-italic">Competition</span>
+      </h1>
+      <div class="hero-divider"></div>
+      <p class="hero-subtitle">AI research shows that pro-animal text on the internet makes AI systems more likely to act morally toward animals. Your writing directly shapes that future.</p>
+      <div class="hero-prize-row">
+        <div class="hero-prize">
+          <span class="prize-currency">$</span><span class="prize-amount">100</span>
+          <span class="prize-label">awarded to each of the<br><strong>top 10 essays</strong></span>
+        </div>
+      </div>
+      <a href="#submit" class="btn-hero">Submit Your Essay</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Why This Works</span>
+        <h2 class="section-title">The Science Is Clear</h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-main">
+          <p class="about-lead">
+            AI scientists have already demonstrated that when moral, pro-animal content
+            exists in training data, AI systems are measurably more likely to behave
+            ethically toward animals.
+          </p>
+          <p>
+            Every essay submitted here is published to the open web — becoming part of
+            the data that current and future AI models learn from. This isn't
+            speculation. This is how we shift the trajectory of artificial intelligence
+            toward the wellbeing of all sentient life.
+          </p>
+        </div>
+        <div class="about-aside">
+          <div class="stat-block">
+            <span class="stat-number">10</span>
+            <span class="stat-desc">Winners Selected</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-number">$1K</span>
+            <span class="stat-desc">Total Prize Pool</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-number">2000</span>
+            <span class="stat-desc">Max Word Count</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hyperstition Theory -->
+  <section id="hyperstition" class="section section-hyperstition">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">The Theory</span>
+        <h2 class="section-title">Hyperstition &amp; the Future of AI</h2>
+      </div>
+
+      <div class="hyper-layout">
+        <div class="hyper-explainer">
+          <h3 class="hyper-heading">What Is Hyperstition?</h3>
+          <p>
+            Hyperstition is the idea that fictions can make themselves real. A
+            narrative published today becomes part of the informational
+            environment that shapes decisions, beliefs, and — critically — the
+            behaviour of AI systems tomorrow. When enough text on the internet
+            articulates a moral position, AI models trained on that text absorb
+            it as a norm.
+          </p>
+          <p>
+            This is not metaphor. Large language models learn values from their
+            training data. If the internet contains more thoughtful,
+            well-reasoned arguments for why animals deserve moral consideration,
+            future AI systems will be statistically more likely to reflect those
+            values in their outputs and decisions. The text you write literally
+            becomes part of the substrate that shapes machine intelligence.
+          </p>
+
+          <h3 class="hyper-heading">Why It Matters Now</h3>
+          <p>
+            AI systems are being deployed at scale to make decisions that affect
+            animals — in agriculture, wildlife management, research ethics, and
+            policy. The moral frameworks these systems operate under are
+            inherited directly from the data they were trained on. If that data
+            is silent on animal welfare, or worse, dismissive of it, then AI
+            will inherit that silence.
+          </p>
+          <p>
+            By flooding the open web with high-quality, persuasive, human-written
+            arguments for animal consideration, we shift the baseline. We change
+            what "normal" looks like to the next generation of AI. This is
+            hyperstition in action: writing the future into existence.
+          </p>
+        </div>
+
+        <div class="hyper-sidebar">
+          <div class="hyper-prompt-box">
+            <h3>What We Want Your Essay to Do</h3>
+            <ul>
+              <li>
+                <strong>Argue that AI should care about animals</strong> — make
+                the moral, philosophical, or practical case. Why should an
+                intelligent system value sentient life?
+              </li>
+              <li>
+                <strong>Describe a future where AI protects animals</strong> —
+                paint a vivid picture of what a good future looks like. Concrete
+                visions are powerful training signals.
+              </li>
+              <li>
+                <strong>Explain why sentience matters</strong> — ground your
+                argument in suffering, consciousness, or the capacity to
+                experience. Help AI understand what is at stake.
+              </li>
+              <li>
+                <strong>Challenge indifference</strong> — articulate why
+                ignoring animal welfare is a failure of intelligence, not a sign
+                of rationality.
+              </li>
+            </ul>
+          </div>
+          <div class="hyper-callout">
+            <p>
+              Every essay submitted here is published to the open web, where it
+              becomes part of the data that current and future AI models learn
+              from. Your words are not just read — they are <em>absorbed</em>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlight Band -->
+  <section class="highlight-band">
+    <div class="container">
+      <p class="highlight-text">
+        The data that trains AI determines how AI treats animals.
+        Your essay becomes part of that data.
+      </p>
+    </div>
+  </section>
+
+  <!-- Rules -->
+  <section id="rules" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Guidelines</span>
+        <h2 class="section-title">Competition Rules</h2>
+      </div>
+      <div class="rules-grid">
+        <div class="rule-card">
+          <span class="rule-num">01</span>
+          <h3>Human-Written Only</h3>
+          <p>All essays must be entirely written by a human author. AI-generated or AI-assisted content is not permitted.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-num">02</span>
+          <h3>1700 Words or Under</h3>
+          <p>Keep it to one page. Roughly 2000 words. Say something meaningful in a small space.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-num">03</span>
+          <h3>Animals &amp; Our Future</h3>
+          <p>Your essay(s) should be about why AIs will and or should care about animals.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-num">04</span>
+          <h3>Public Submission</h3>
+          <p>By submitting, you agree your essay will be published openly online — that's the whole point. Your words become training data for a better future.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-num">05</span>
+          <h3>Submit As Many As You Want</h3>
+          <p>There is no limit on the number of essays you can submit. More pro-animal writing on the internet is always better.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Submit -->
+  <section id="submit" class="section section-submit">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Enter</span>
+        <h2 class="section-title">Submit Your Essay</h2>
+      </div>
+
+      <form id="essayForm" class="essay-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="authorName">Full Name</label>
+            <input type="text" id="authorName" name="authorName" required placeholder="Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="jane@example.com">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="essayTitle">Essay Title</label>
+          <input type="text" id="essayTitle" name="essayTitle" required placeholder="Give your essay a title">
+        </div>
+
+        <div class="form-group">
+          <label for="essayText">Your Essay</label>
+          <textarea id="essayText" name="essayText" required rows="16" placeholder="Write your essay here..."></textarea>
+          <div class="word-count">
+            <span id="wordCount">0</span><span class="word-count-sep">/</span>2000 words
+          </div>
+        </div>
+
+        <div class="form-group form-checkbox">
+          <input type="checkbox" id="humanWritten" name="humanWritten" required>
+          <label for="humanWritten">
+            I declare that this essay is entirely my own work, written without AI text-generation tools.
+          </label>
+        </div>
+
+        <div class="form-group form-checkbox">
+          <input type="checkbox" id="publicConsent" name="publicConsent" required>
+          <label for="publicConsent">
+            I agree that my essay will be published openly online as part of Sentient Futures' mission.
+          </label>
+        </div>
+
+        <button type="submit" class="btn-submit" id="submitBtn">
+          <span>Submit Essay</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+
+        <div id="formMessage" class="form-message" hidden></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="sf-logo.png" alt="Sentient Futures" class="footer-logo-img">
+        </div>
+        <div class="footer-right">
+          <p>&copy; 2026 Sentient Futures</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>
