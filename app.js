@@ -6,7 +6,7 @@
 const SUPABASE_URL = 'https://ioqerxfkaeojwqglpgat.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlvcWVyeGZrYWVvandxZ2xwZ2F0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwOTc0ODcsImV4cCI6MjA4ODY3MzQ4N30.Xs77eZ3Go0taN7eU9aaFYrSJ5iyZHnCQqNJw0B3co1A';
 
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // ─── Starfield Canvas ───
 (function initStarfield() {
@@ -139,7 +139,7 @@ form.addEventListener('submit', async (e) => {
   };
 
   try {
-    const { error } = await supabase
+    const { error } = await db
       .from('submissions')
       .insert([submission]);
 
