@@ -227,6 +227,21 @@ a:hover { color: var(--white); }
 
 .prize-label strong { color: var(--text); font-weight: 500; }
 
+.hero-deadline {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: fadeUp 0.8s var(--ease) 0.75s forwards;
+}
+
+.hero-deadline strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .btn-hero {
   display: inline-flex;
   align-items: center;
