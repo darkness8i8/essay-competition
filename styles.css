@@ -522,6 +522,25 @@ a:hover { color: var(--white); }
   }
 }
 
+/* ─── Citation Superscripts ─── */
+.cite-ref {
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--accent);
+  text-decoration: none;
+  vertical-align: super;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 0 2px;
+  transition: color 0.2s var(--ease);
+}
+
+.cite-ref:hover {
+  color: var(--white);
+}
+
 /* ─── Highlight Band ─── */
 .highlight-band {
   background: var(--bg-deep);
