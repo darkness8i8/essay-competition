@@ -1,5 +1,5 @@
 /* ============================================
-   Sentient Futures — Essay Competition
+   Hyperstition For Animals — Essay Competition
    ============================================ */
 
 // --- Supabase Configuration ---
