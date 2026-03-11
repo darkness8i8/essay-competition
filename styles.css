@@ -68,12 +68,15 @@ a:hover { color: var(--white); }
   display: flex;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
 }
 
 .nav-logo-img {
   height: 28px;
-  width: auto;
+  width: 28px;
   object-fit: contain;
+  flex-shrink: 0;
   filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7)) drop-shadow(0 0 2px rgba(255, 255, 255, 0.9));
   transition: opacity 0.2s var(--ease);
 }
@@ -86,6 +89,7 @@ a:hover { color: var(--white); }
   line-height: 1.35;
   color: var(--white);
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .nav-logo:hover .nav-logo-img { opacity: 0.8; }
